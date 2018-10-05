@@ -1,4 +1,6 @@
-package tech.bts.review;
+package tech.bts.webdevreview.simpleprogram;
+
+import tech.bts.webdevreview.classes.MathUtil;
 
 import java.util.*;
 
@@ -40,7 +42,7 @@ public class MainJava {
         prices.put("potato", 3.30);
         prices.put("tomato", 1.65);
 
-        double priceOfPotato = prices.get("potato");
+        final double priceOfPotato = prices.get("potato");
         System.out.println(priceOfPotato);
 
         for (double price : prices.values()) {
@@ -55,23 +57,13 @@ public class MainJava {
 
         printHello("Tue");
 
-        double x = power(2,10);
+        double x = MathUtil.power(2,10);
         System.out.println(x);
+
+        System.out.println(MathUtil.factorial(5));
     }
 
     static void printHello(String name) {
         System.out.println("Hello " + name + "!");
-    }
-
-    static double power(double base, int exponent) {
-
-        double result = 1;
-
-        int counter = 1;
-        while (counter <= exponent) {
-            result = result * base;
-            counter = counter + 1;
-        }
-        return result;
     }
 }

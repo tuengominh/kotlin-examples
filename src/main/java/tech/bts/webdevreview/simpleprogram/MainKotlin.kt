@@ -1,5 +1,6 @@
-package tech.bts.review
+package tech.bts.webdevreview.simpleprogram
 
+import tech.bts.webdevreview.classes.MathUtilKotlin
 import java.util.*
 
 fun main(args: Array<String>) {
@@ -7,7 +8,6 @@ fun main(args: Array<String>) {
     println("Hello world!")
 
     var age : Int = 28
-    var name = "Tue"
 
     if (age >= 18) {
         println("adult")
@@ -57,27 +57,13 @@ fun main(args: Array<String>) {
 
     println(prices)
 
-    val x = power(2.0, 10)
-    println(x)
-
     printHello("Tue")
 
-    }
+    val x = MathUtilKotlin.power(2.0, 10)
+    println(x)
+    println(MathUtilKotlin.factorial(5.0))
 
-fun power(base: Double, exponent: Int): Double {
-
-    var result = 1.0
-
-    var counter = 1
-    while (counter <= exponent) {
-        result *= base
-        counter += 1
-
-        // for (i in 1..exponent) { result *= base }
-    }
-    return result
 }
-
 fun printHello(name: String) {
     println("Hello $name!")
 }
