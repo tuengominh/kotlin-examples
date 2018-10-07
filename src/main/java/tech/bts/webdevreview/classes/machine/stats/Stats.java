@@ -16,7 +16,7 @@ public class Stats {
 
     public double getSum() { return sum; }
     public int getCount() { return counter; }
-    public double getAverage() { return sum / 2; }
+    public double getAverage() { return sum / counter; }
     public double getMax() { return max; }
     public double getMin() { return min; }
 }

@@ -12,7 +12,7 @@ class StatsKotlin {
         private set
 
     val average: Double
-        get() = sum / 2
+        get() = sum / count
 
     fun add(x: Double) {
         if (x > max) { max = x }
