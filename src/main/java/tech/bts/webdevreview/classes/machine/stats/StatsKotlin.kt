@@ -6,7 +6,7 @@ class StatsKotlin {
         private set
     var count = 0
         private set
-    var max = 0.0
+    var max = Double.MIN_VALUE
         private set
     var min = Double.MAX_VALUE
         private set

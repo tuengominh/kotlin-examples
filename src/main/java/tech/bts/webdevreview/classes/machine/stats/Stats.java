@@ -4,7 +4,7 @@ public class Stats {
 
     private double sum = 0;
     private int counter = 0;
-    private double max = 0;
+    private double max = Double.MIN_VALUE;
     private double min = Double.MAX_VALUE;
 
     public void add(double x) {
