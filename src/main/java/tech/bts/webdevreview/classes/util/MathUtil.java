@@ -1,4 +1,4 @@
-package tech.bts.webdevreview.classes;
+package tech.bts.webdevreview.classes.util;
 
 public class MathUtil {
 

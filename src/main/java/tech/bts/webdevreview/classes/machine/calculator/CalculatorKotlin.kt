@@ -1,4 +1,4 @@
-package tech.bts.webdevreview.classes
+package tech.bts.webdevreview.classes.machine.calculator
 
 class CalculatorKotlin(var value: Double) {
 

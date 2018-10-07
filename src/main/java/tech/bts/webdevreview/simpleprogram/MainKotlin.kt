@@ -1,6 +1,6 @@
 package tech.bts.webdevreview.simpleprogram
 
-import tech.bts.webdevreview.classes.MathUtilKotlin
+import tech.bts.webdevreview.classes.util.MathUtilKotlin
 import java.util.*
 
 fun main(args: Array<String>) {

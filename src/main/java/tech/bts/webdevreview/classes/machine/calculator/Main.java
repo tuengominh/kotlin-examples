@@ -1,4 +1,4 @@
-package tech.bts.webdevreview.classes;
+package tech.bts.webdevreview.classes.machine.calculator;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +11,5 @@ public class Main {
 
         System.out.println(calculator.getValue());
         System.out.println(calculator.getCounter());
-
-        calculator.setValue(0);
     }
 }

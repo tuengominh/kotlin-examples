@@ -1,6 +1,6 @@
 package tech.bts.webdevreview.simpleprogram;
 
-import tech.bts.webdevreview.classes.MathUtil;
+import tech.bts.webdevreview.classes.util.MathUtil;
 
 import java.util.*;
 

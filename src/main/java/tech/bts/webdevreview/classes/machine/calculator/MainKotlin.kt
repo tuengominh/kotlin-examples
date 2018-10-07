@@ -1,4 +1,4 @@
-package tech.bts.webdevreview.classes
+package tech.bts.webdevreview.classes.machine.calculator
 
 fun main(args: Array<String>) {
 
