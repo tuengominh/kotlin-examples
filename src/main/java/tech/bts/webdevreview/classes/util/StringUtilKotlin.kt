@@ -23,12 +23,4 @@ object StringUtilKotlin {
         return s + repeatString(" ", n - s.length)
     }
 
-    fun listOfNumbers(start: Int, end: Int): List<Int> {
-
-        val result = ArrayList<Int>()
-        for (i in start..end) {
-            result.add(i)
-        }
-        return result
-    }
 }

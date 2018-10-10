@@ -16,9 +16,7 @@ public class Product {
         return name;
     }
 
-    public double getPrice() {
-        return price;
-    }
+    public double getPrice() { return price; }
 
     public boolean isAvailable() {
         return available;
