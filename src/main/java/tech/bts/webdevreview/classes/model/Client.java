@@ -1,7 +1,7 @@
 package tech.bts.webdevreview.classes.model;
 
 public class Client {
-
+/*
     private String name;
     private String email;
     private int age;
@@ -47,5 +47,5 @@ public class Client {
 
     public void setMarried(boolean married) {
         this.married = married;
-    }
+    }*/
 }
