@@ -7,7 +7,7 @@ import java.util.*;
 public class MainJava {
 
     public static void main(String[] args) {
-
+/*
         System.out.println("Hello");
 
         int age = 28;
@@ -65,5 +65,5 @@ public class MainJava {
 
     static void printHello(String name) {
         System.out.println("Hello " + name + "!");
-    }
+    }*/
 }
