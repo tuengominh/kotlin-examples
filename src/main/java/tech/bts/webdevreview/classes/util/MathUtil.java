@@ -1,7 +1,7 @@
 package tech.bts.webdevreview.classes.util;
 
 public class MathUtil {
-
+/*
     public static double power(double base, int exponent) {
 
         double result = 1;
@@ -24,5 +24,5 @@ public class MathUtil {
             counter = counter + 1;
         }
         return result;
-    }
+    }*/
 }
