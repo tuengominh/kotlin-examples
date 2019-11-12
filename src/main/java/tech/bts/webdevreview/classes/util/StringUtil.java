@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StringUtil {
-
+/*
         public static String repeatString (String s, int n) {
 
             String result = "";
@@ -23,5 +23,5 @@ public class StringUtil {
 
             return s + repeatString(" ", n - s.length());
         }
-
+*/
     }
