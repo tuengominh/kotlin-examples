@@ -1,7 +1,7 @@
 package tech.bts.webdevreview.classes.machine.calculator;
 
 public class Calculator {
-
+/*
     private double value;
     private int counter;
 
@@ -29,4 +29,5 @@ public class Calculator {
     public void setValue(double value) {
         this.value = value;
     }
+    */
 }
